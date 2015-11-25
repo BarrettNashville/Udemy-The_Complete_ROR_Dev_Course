@@ -1,14 +1,9 @@
-puts "What is your first name?"
+puts "Please enter your first number"
 
-first_name = gets.chomp
+first_number = gets.chomp
 
-puts "What is your last name?"
+puts "Please enter your second number"
 
-last_name = gets.chomp
+second_number = gets.chomp
 
-puts "Welcome #{first_name} #{last_name}!"
-
-puts "The length of your first name is #{first_name.length}"
-puts "The length of your last name is #{last_name.length}"
-
-puts "Your name in reverse is #{last_name.reverse} #{first_name.reverse}"
+puts "The result of multiplication is: #{first_number * second_number}" 
